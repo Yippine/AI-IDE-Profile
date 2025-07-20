@@ -653,7 +653,7 @@
 		"vscode-languageclient": "^8.0.2"
 	},
 	"__metadata": {
-		"installedTimestamp": 1752936364186,
+		"installedTimestamp": 1752944683631,
 		"targetPlatform": "win32-x64",
 		"size": 35090024
 	}

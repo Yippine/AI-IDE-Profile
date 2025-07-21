@@ -1,6 +1,4 @@
 {
-  // --- 核心外觀與佈局 (融合 Sublime 極簡哲學) ---
-  "workbench.colorTheme": "Catppuccin Mocha",
   "window.commandCenter": true,
   "window.menuBarVisibility": "toggle", // 按 Alt 顯示選單，最大化空間
   "editor.minimap.enabled": false, // 寬螢幕下建議關閉以保持專注，可自行改為 true 體驗
@@ -74,5 +72,6 @@
 
   // --- 程式碼格式化 (極簡哲學的精髓) ---
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.colorTheme": "Catppuccin Mocha"
 }

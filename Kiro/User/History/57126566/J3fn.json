@@ -1,0 +1,77 @@
+{
+  "window.commandCenter": true,
+  "window.menuBarVisibility": "toggle", // 按 Alt 顯示選單，最大化空間
+  "editor.minimap.enabled": false, // 寬螢幕下建議關閉以保持專注，可自行改為 true 體驗
+  "explorer.compactFolders": false, // 顯示完整資料夾樹狀結構
+
+  // --- 介面與終端機字體 (保留你的個人偏好) ---
+  "custom-ui-style.stylesheet": {
+    ".anysphere-markdown-container-root": "/* --- 核心字體與排版 --- */ /* 1. 【關鍵】使用與編輯器完全相同的字體，實現視覺統一 */ font-family: 'JetBrains Mono', monospace !important; /* 2. 這是你選擇的舒適大小，我們保留它 */ font-size: 15px !important; /* 3. 【優化】使用 Catppuccin 主題中最適合閱讀的文字顏色 */ color: #CDD6F4 !important; /* 4. 保留舒適的行高 */ line-height: 1.6 !important;",
+    ".anysphere-markdown-container-root p, .anysphere-markdown-container-root ul, .anysphere-markdown-container-root ol": "/* 【新增】針對段落、列表優化，增加呼吸感 */ margin-bottom: 12px !important;",
+    ".anysphere-markdown-container-root pre": "/* --- 【新增】程式碼區塊的終極優化 --- */ /* 5. 【關鍵】讓程式碼區塊的背景色與你的 Catppuccin 主題背景完全一致！ */ background-color: #1E1E2E !important; /* 6. 為程式碼區塊加上圓角和內邊距，更美觀 */ border-radius: 6px !important; padding: 12px !important;",
+    ".anysphere-markdown-container-root code": "/* 7. 確保程式碼區塊內的文字也使用 JetBrains Mono */ font-family: 'JetBrains Mono', monospace !important;"
+  },
+  "editor.fontSize": 17,
+  "terminal.integrated.fontSize": 17,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+
+  // --- 編輯器核心：字型、護眼與心流設定 ---
+  "editor.fontFamily": "'JetBrains Mono', monospace",
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 1.5,
+  "editor.wordWrap": "on", // 寬螢幕自動換行，保護脖子
+  "editor.renderLineHighlight": "gutter", // 當前行高亮不干擾視覺
+  "editor.smoothScrolling": true, // 高刷新率螢幕必備
+  "editor.cursorBlinking": "smooth", // 游標平滑閃爍，減少刺激
+
+  // --- 【衝突修復】 ---
+  // 下面這一行是 Sublime 操作精髓的一部分，但它的功能已經被你安裝的
+  // "Sublime Text Keymap" 套件所包含和管理。
+  // 為了避免與套件發生衝突，導致其他快捷鍵(如 Ctrl+L)失效，我們將其註解掉。
+  // "editor.multiCursorModifier": "ctrlCmd",
+
+  // --- 編輯器行為 (汲取 Sublime 高效操作精髓) ---
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?#", // 讓雙擊選字更智慧
+  "editor.scrollBeyondLastLine": true, // 允許捲動超過最後一行
+
+  // --- 檔案儲存與代碼衛生 (業界最佳實踐) ---
+  "files.trimTrailingWhitespace": true, // 存檔時移除行尾空格
+  "files.insertFinalNewline": true, // 存檔時確保檔案末尾有空行
+
+  // --- 自動儲存 (極簡哲學的精髓) ---
+  "files.autoSave": "afterDelay",
+
+  // --- Markdown 預覽優化 (基於可用的標準設定) ---
+  // 我們將使用 VS Code 的內建功能，實現最大限度的客製化。
+
+  // 1. 設定字體為 JetBrains Mono，並提供 monospace 作為備用選項。
+  "markdown.preview.fontFamily": "'JetBrains Mono', monospace",
+
+  // 2. 設定字體大小，16px 是一個非常舒適的閱讀大小，接近您期望的 16.5px。
+  "markdown.preview.fontSize": 16,
+
+  // 3. 設定行高，1.6 提供了良好的段落呼吸感。
+  "markdown.preview.lineHeight": 1.6,
+
+  // --- 以下是您既有的、很好的個人偏好，建議保留 --
+  "markdown.preview.breaks": false,
+  "markdown.preview.doubleClickToSwitchToEditor": true,
+  "markdown.preview.linkify": true,
+  "markdown.preview.markEditorSelection": true,
+  "markdown.preview.openMarkdownLinks": "inPreview",
+  "markdown.preview.scrollEditorWithPreview": true,
+  "markdown.preview.scrollPreviewWithEditor": true,
+  "markdown.preview.typographer": false,
+
+  // --- SSH 相關設定 ---
+  "remote.SSH.defaultExtensions": ["amazonwebservices.aws-toolkit-vscode"],
+  "remote.SSH.remotePlatform": {
+    "aws-devenv-48162c77-0434-4464-8371-f4c2cbd129f2": "linux"
+  },
+  "remote.SSH.useLocalServer": false,
+
+  // --- 程式碼格式化 (極簡哲學的精髓) ---
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "gitlens.views.commitDetails.files.layout": "list"
+}

@@ -1,69 +1,69 @@
 {
-    "userDataProfilesMigration": true,
-    "profileAssociations": {
-        "workspaces": {
-            "vscode-remote://ssh-remote%2Baws-devenv-48162c77-0434-4464-8371-f4c2cbd129f2/projects/Business-Magnifier": "__default__profile__",
-            "file:///d%3A/Yippine/Program/Business-Magnifier": "__default__profile__",
-            "file:///d%3A/Yippine/Software/AI%20IDE/CodeCatalyst-SSH": "__default__profile__"
-        },
-        "emptyWindows": {}
+  "userDataProfilesMigration": true,
+  "profileAssociations": {
+    "workspaces": {
+      "vscode-remote://ssh-remote%2Baws-devenv-48162c77-0434-4464-8371-f4c2cbd129f2/projects/Business-Magnifier": "__default__profile__",
+      "file:///d%3A/Yippine/Program/Business-Magnifier": "__default__profile__",
+      "file:///d%3A/Yippine/Software/AI%20IDE/AI-IDE-Profile": "__default__profile__"
     },
-    "profileAssociationsMigration": true,
-    "telemetry.machineId": "86ea259c416a00f3fbfa8622515630f30f48eb51014faea740ce421bc39908cb",
-    "telemetry.sqmId": "{59BD20A3-5BB2-46E4-9D50-40A4090C0FD9}",
-    "telemetry.devDeviceId": "1b70794c-861c-4c63-937f-0225585dc126",
-    "backupWorkspaces": {
-        "workspaces": [],
-        "folders": [
-            {
-                "folderUri": "file:///d%3A/Yippine/Program/Business-Magnifier"
-            },
-            {
-                "folderUri": "file:///d%3A/Yippine/Software/AI%20IDE/CodeCatalyst-SSH"
-            }
-        ],
-        "emptyWindows": []
+    "emptyWindows": {}
+  },
+  "profileAssociationsMigration": true,
+  "telemetry.machineId": "86ea259c416a00f3fbfa8622515630f30f48eb51014faea740ce421bc39908cb",
+  "telemetry.sqmId": "{59BD20A3-5BB2-46E4-9D50-40A4090C0FD9}",
+  "telemetry.devDeviceId": "1b70794c-861c-4c63-937f-0225585dc126",
+  "backupWorkspaces": {
+    "workspaces": [],
+    "folders": [
+      {
+        "folderUri": "file:///d%3A/Yippine/Program/Business-Magnifier"
+      },
+      {
+        "folderUri": "file:///d%3A/Yippine/Software/AI%20IDE/AI-IDE-Profile"
+      }
+    ],
+    "emptyWindows": []
+  },
+  "windowControlHeight": 35,
+  "theme": "vs-dark",
+  "themeBackground": "#211d25",
+  "windowSplash": {
+    "zoomLevel": 0,
+    "baseTheme": "vs-dark",
+    "colorInfo": {
+      "foreground": "#ffffff",
+      "background": "#211d25",
+      "editorBackground": "#211d25",
+      "titleBarBackground": "rgba(0, 0, 0, 0)",
+      "titleBarBorder": "rgba(0, 0, 0, 0)",
+      "activityBarBackground": "#28242e",
+      "activityBarBorder": "#4a464f",
+      "sideBarBackground": "#211d25",
+      "statusBarBackground": "rgba(0, 0, 0, 0)",
+      "statusBarNoFolderBackground": "rgba(0, 0, 0, 0)"
     },
-    "windowControlHeight": 35,
-    "theme": "vs-dark",
-    "themeBackground": "#211d25",
-    "windowSplash": {
-        "zoomLevel": 0,
-        "baseTheme": "vs-dark",
-        "colorInfo": {
-            "foreground": "#ffffff",
-            "background": "#211d25",
-            "editorBackground": "#211d25",
-            "titleBarBackground": "rgba(0, 0, 0, 0)",
-            "titleBarBorder": "rgba(0, 0, 0, 0)",
-            "activityBarBackground": "#28242e",
-            "activityBarBorder": "#4a464f",
-            "sideBarBackground": "#211d25",
-            "statusBarBackground": "rgba(0, 0, 0, 0)",
-            "statusBarNoFolderBackground": "rgba(0, 0, 0, 0)"
-        },
-        "layoutInfo": {
-            "sideBarSide": "left",
-            "editorPartMinWidth": 220,
-            "titleBarHeight": 35,
-            "activityBarWidth": 48,
-            "sideBarWidth": 249,
-            "statusBarHeight": 22,
-            "windowBorder": false
-        }
-    },
-    "windowsState": {
-        "lastActiveWindow": {
-            "folder": "file:///d%3A/Yippine/Software/AI%20IDE/CodeCatalyst-SSH",
-            "backupPath": "C:\\Users\\yippine.am\\AppData\\Roaming\\Kiro\\Backups\\a7658c075a990f1296b4c72956e25e12",
-            "uiState": {
-                "mode": 0,
-                "x": 208,
-                "y": 66,
-                "width": 1024,
-                "height": 768
-            }
-        },
-        "openedWindows": []
+    "layoutInfo": {
+      "sideBarSide": "left",
+      "editorPartMinWidth": 220,
+      "titleBarHeight": 35,
+      "activityBarWidth": 48,
+      "sideBarWidth": 249,
+      "statusBarHeight": 22,
+      "windowBorder": false
     }
+  },
+  "windowsState": {
+    "lastActiveWindow": {
+      "folder": "file:///d%3A/Yippine/Software/AI%20IDE/AI-IDE-Profile",
+      "backupPath": "C:\\Users\\yippine.am\\AppData\\Roaming\\Kiro\\Backups\\a7658c075a990f1296b4c72956e25e12",
+      "uiState": {
+        "mode": 0,
+        "x": 208,
+        "y": 66,
+        "width": 1024,
+        "height": 768
+      }
+    },
+    "openedWindows": []
+  }
 }

@@ -1,1 +1,1 @@
-# CodeCatalyst-SSH
+# AI-IDE-Profile

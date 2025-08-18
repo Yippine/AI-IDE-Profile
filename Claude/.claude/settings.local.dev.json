@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(chmod:*)",
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "WebSearch",
+      "Bash(luac:*)",
+      "Bash(lua:*)",
+      "Bash(mv:*)",
+      "Bash(./tools/clean_mpv_target.sh:*)",
+      "Bash(./tools/build_portable.sh:*)",
+      "Bash(git add:*)",
+      "Bash(cp:*)",
+      "Bash(mkdir:*)",
+      "Bash(git merge:*)",
+      "Bash(gh:*)"
+    ],
+    "deny": [],
+    "ask": [],
+    "additionalDirectories": ["/projects/[your-project-name]"]
+  }
+}
